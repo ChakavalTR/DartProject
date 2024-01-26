@@ -19,7 +19,7 @@ void main(){
     print(i);
   }while(i<=15);
   // ---forEach loop----
-  List name = ['Chakaval1','Thorng1','Rattanak1'];
+  List name = ['Chakaval2','Thorng2','Rattanak2'];
   for(var temp in name){
     print('Name = $temp');
   }
