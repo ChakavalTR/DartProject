@@ -1,0 +1,79 @@
+||================>>Dart<<=====================||
+
+Data type : 
+- var : Can use instead of 3 below.
+- int 
+- double
+- String
+
+var 	-> Dynamic value but specific type
+dynamic -> Value and type dynamic
+const	-> Specific
+
+? 	-> Meaning null safely.
+!	-> Check null.
+
+toLowerCase() covert from big letter to small
+toUpperCase() covert from small to small 
+
+? if
+: else
+
+x > y ? x : y; 
+    shortcut
+if(x>y){
+    print(x);
+}else{
+    print(y);
+}
+
+Loop : ជាដំណើរការ Statement ដដែលៗនៅពេលដែលលក្ខខណ្ឌពិត។
+return : pderm pi keyword void can calculate
+non return : min arch yok tv calculate
+List : រចនាសម្ព័ន្ធទិន្នន័យដែលអនុញ្ញាតឱ្យអ្នករក្សាទុក និងរៀបចំបណ្តុំនៃធាតុមួយ។
+Array :Array គឺជាបណ្តុំ Variables ដែលអាចផ្ទុកទិន្នន័យ បានច្រើន 
+       ហើយវាមានឈ្មោះដូចគ្នា និង Data type ដូចគ្នា ហើយពួកវាខុសគ្នាទៅដោយ Index។ 
+Map :គឺជាវត្ថុដែលអាចរក្សាទុកទិន្នន័យក្នុងតម្រង់ជាតម្លៃ key value។
+Collection : គឺជាដំណោះស្រាយតែមួយគត់សម្រាប់ការងាររៀបចំទិន្នន័យទាំងអស់ 
+                ដូចជាការរក្សាទុកទិន្នន័យ ការស្វែងរក ការតម្រៀប ការបញ្ចូល ការលុប 
+                និងការធ្វើបច្ចុប្បន្នភាពទិន្នន័យ។
+                            List vs Map
+                                 
+- List អនុញ្ញាតឱ្យធាតុស្ទួន។                    - Map មិនអនុញ្ញាតឱ្យស្ទួនជាahsorបានទេ ប៉ុន្តែតម្លៃអាចស្ទួនបាន។
+- List អនុញ្ញាតឱ្យតម្លៃ null ច្រើន។             - Map អនុញ្ញាតឱ្យ null តែមួយជា key និង null ច្រើនជាតម្លៃ។
+                            Array vs List
+- Array arch tuk jea datatype jek leak  - List arch add element ban doch knea but arch hav method mk use ban
+- Array list arch add element doch knea - List vea mean jea size auto
+
+\t space more line
+\n new line
+\b remove 1 line
+
+List list =[] arch dak number and letter
+List<int> list = [] Cannot put letter
+
+List[index]
+Map{key,value}
+
+newInstance mean null for value;
+Ex.
+Person.newInstance();
+void main(){
+    Person ps1=Person.newInstance();
+}
+Class Object = គឺជាបណ្ដុំ Instances Variables និង Methods ដែល Instances 
+                Variables និង Methods ទាំងនោះជា Member របស់ Class។
+(Object Oriented Programming)
+OOP          = គឺជាការបង្កើត Object​ មួយហើយក្នុងObjectដែលយើង
+               បានបង្កើតនោះមានទាំង Data និង Methods ដែលយើងអាចប្រើ
+               ដើម្បីកាត់បន្ថយកូដ​ហើយងាយស្រួលហៅមកប្រើនៅក្នុង Main។
+(Model View Controller)
+MVC Pattern  = គឺជាគំរូរចនាមួយដែលជួយរៀបចំកូដតាមរបៀបFlow-Chart។
+               គឺជាការ​ Design Pattern របស់ OOP
+OOP = Object Oriented Programming
+OOA = Object Oriented Analysis
+OOD = Object Oriented Design
+
+Controller គឺជា business logic  
+Overloading = Complete change
+Overridding = Switch Change 
