@@ -7,9 +7,9 @@ void main(){
   }
   //======Statement 2=======
   if(x > y){
-    print('X $x Biggest');
+    print('X $x Biggest1');
   }else{
-    print('Y BBiggest');
+    print('Y Biggest2');
   }
   //======Statement 1=======
   int number = 0;
