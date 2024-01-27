@@ -6,7 +6,7 @@ void main(){
   String sex;
   String address;
 
-  stdout.write('Enter ID    = ');
+  stdout.write('Enter ID    =1 ');
   id = stdin.readLineSync()!;
   stdout.write('Enter Name  = ');
   name = stdin.readLineSync()!;
